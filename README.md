@@ -18,12 +18,20 @@ This project is a Python-based keylogger designed for **educational and ethical 
 ```bash
 Python-Keylogger/
 │
-├── keylogger.py         # Main Python script
-├── requirements.txt     # Python dependencies
-├── .env                 # Email credentials (excluded in repo)
-├── screenshots/         # Folder to store captured screenshots
-├── LICENSE              # License file
-└── README.md            # Project documentation
+├── src/                 # Contains the Python script
+│   ├── keylogger.py     # Main script with all features
+│
+├── logs/                # Stores log files and encrypted logs
+│   ├── key_log.json
+│   ├── encrypted_log.txt
+│
+├── screenshots/         # Stores screenshots
+│
+├── .env                 # Environment variables for sensitive data
+│
+├── requirements.txt     # Required Python libraries
+│
+└── README.md            # Documentation
 ```
 <br>
 
