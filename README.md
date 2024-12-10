@@ -1,13 +1,11 @@
-# 🔑📸 **Python Keylogger with Advanced Features** 🔑📸
+# 🔑 **Python Keylogger with Advanced Features** 🔑
 
 ## 📖 **Overview**
-
 This project is a Python-based keylogger designed for **educational and ethical purposes only**. It demonstrates how keylogging works while integrating additional features like screenshot capturing and email-based reporting. The project also allows users to compile the keylogger as a standalone executable.
 
 > ⚠️ **Disclaimer**: This tool is strictly for educational purposes. The author is not responsible for any misuse of the tool. Always respect privacy and ensure ethical usage.
 
 ## 🚀 **Features**
-
 - **Keystroke Logging**: Captures all keystrokes and logs them into a JSON file categorized by active applications.
 - **Screenshot Capturing**: Periodically captures screenshots and stores them locally.
 - **Email Reporting**: Sends both key logs and screenshots to a specified email at regular intervals.
@@ -75,7 +73,6 @@ pyinstaller --onefile --noconsole keylogger.py
 
 
 ## ✨ **Usage Instructions**
-
 1. **Keylogger Output**
    - Keystrokes are logged in `key_log.json`, categorized by application.
    - Screenshots are saved in the `screenshots/` folder.
@@ -89,7 +86,6 @@ pyinstaller --onefile --noconsole keylogger.py
 
 
 ## 📜 **Installation of the Keylogger via USB (Optional)**
-
 1. Copy the compiled `.exe` file onto a USB drive.
 2. On the target system, run the `.exe` to activate the keylogger.
 3. The keylogger will run silently in the background.
@@ -110,10 +106,6 @@ Update the .env file with new credentials as needed.
 
 3. **Disable Email Reporting**
 Comment out or remove the send_email() function in the script.
-
-
-#📋 **Disclaimer**
-> This tool is strictly for educational purposes. Using this tool to monitor individuals without their knowledge or consent is illegal and unethical. Always ensure you have appropriate permissions before using it.
 
 
 ## 📜 **License**
