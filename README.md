@@ -14,6 +14,7 @@ This project is a Python-based keylogger designed for **educational and ethical 
 - **Standalone Executable**: Runs as a compiled `.exe` file for ease of use and background operation.
 - **No Remote Server**: Unlike other implementations, this keylogger does not rely on a remote server, ensuring local storage and minimal dependencies.
 
+
 ## 📂 **File Structure**
 ```bash
 Python-Keylogger/
@@ -26,15 +27,16 @@ Python-Keylogger/
 └── README.md            # Project documentation
 ```
 
+
 ## 📦 **Installation Guide**
 # **Option 1: Running the Python Script**
 1. **Clone the Repository**
 Open a terminal and run:
-
 ```bash
 git clone https://github.com/your-username/Python-Keylogger.git
 cd Python-Keylogger
 ```
+
 2. **Set up a Virtual Environment**
 ```bash
 python -m venv .venv
@@ -49,7 +51,6 @@ pip install -r requirements.txt
 4. **Configure Environment Variables**
 -Create a .env file in the root directory:
 ```plaintext
-Copy code
 EMAIL_SENDER=your-email@gmail.com
 EMAIL_PASSWORD=your-password
 EMAIL_RECEIVER=receiver-email@gmail.com
@@ -57,7 +58,6 @@ EMAIL_RECEIVER=receiver-email@gmail.com
 -Replace placeholders with your actual credentials.
 
 5. **Run the Keylogger**
-
 ```bash
 python keylogger.py
 ```
@@ -73,7 +73,8 @@ pyinstaller --onefile --noconsole keylogger.py
 -Run the executable file by double-clicking it.
 -It will log keystrokes and capture screenshots as per your settings.
 
-## ✨ Usage Instructions
+
+## ✨ **Usage Instructions**
 
 1. **Keylogger Output**
    - Keystrokes are logged in `key_log.json`, categorized by application.
@@ -85,6 +86,7 @@ pyinstaller --onefile --noconsole keylogger.py
 
 3. **Stopping the Keylogger**
    - Press the `ESC` key in any application to stop the keylogger.
+
 
 ## 📜 **Installation of the Keylogger via USB (Optional)**
 
@@ -99,7 +101,6 @@ pyinstaller --onefile --noconsole keylogger.py
 
 1. **Adjust Logging and Screenshot Intervals**  
    Modify the following constants in `keylogger.py`:
-
    ```python
    EMAIL_INTERVAL = 300  # Time in seconds (default: 5 minutes)
    SCREENSHOT_INTERVAL = 60  # Time in seconds (default: 1 minute)
@@ -114,13 +115,7 @@ Comment out or remove the send_email() function in the script.
 #📋 **Disclaimer**
 > This tool is strictly for educational purposes. Using this tool to monitor individuals without their knowledge or consent is illegal and unethical. Always ensure you have appropriate permissions before using it.
 
-## 📜 **License**
 
+## 📜 **License**
 This project is licensed under the [MIT License](LICENSE).
 
-
-## 🌟 Show Your Support
-
-If you found this project useful, please consider ⭐ starring the repository!
-
-<p align="center"><b>Made with ❤️ by Arvin Suvarna</b></p>
