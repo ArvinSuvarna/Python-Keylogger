@@ -83,6 +83,8 @@ pyinstaller --onefile --noconsole keylogger.py
    - Press the `ESC` key in any application to stop the keylogger.
 
 
+
+
 ## 📜 **Installation of the Keylogger via USB (Optional)**
 1. Copy the compiled `.exe` file onto a USB drive.
 2. On the target system, run the `.exe` to activate the keylogger.
