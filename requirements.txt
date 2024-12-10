@@ -1,0 +1,4 @@
+pynput
+cryptography
+Pillow
+python-dotenv
