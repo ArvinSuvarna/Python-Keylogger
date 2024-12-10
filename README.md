@@ -70,8 +70,8 @@ pyinstaller --onefile --noconsole keylogger.py
 2. **Test the .exe File**
 -Run the executable file by double-clicking it.
 -It will log keystrokes and capture screenshots as per your settings.
-
 <br>
+
 ## ✨ **Usage Instructions**
 1. **Keylogger Output**
    - Keystrokes are logged in `key_log.json`, categorized by application.
@@ -102,7 +102,7 @@ pyinstaller --onefile --noconsole keylogger.py
 Update the .env file with new credentials as needed.
 3. Disable Email Reporting
 Comment out or remove the send_email() function in the script.
-
+<br>
 
 ## 📜 **License**
 This project is licensed under the [MIT License](LICENSE).
