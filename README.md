@@ -95,16 +95,16 @@ pyinstaller --onefile --noconsole keylogger.py
 
 # ⚙️ Customization Options
 
-1. **Adjust Logging and Screenshot Intervals**  
+1. Adjust Logging and Screenshot Intervals 
    Modify the following constants in `keylogger.py`:
    ```python
    EMAIL_INTERVAL = 300  # Time in seconds (default: 5 minutes)
    SCREENSHOT_INTERVAL = 60  # Time in seconds (default: 1 minute)
 
-2. **Change Email Credentials**
+2. Change Email Credentials
 Update the .env file with new credentials as needed.
 
-3. **Disable Email Reporting**
+3. Disable Email Reporting
 Comment out or remove the send_email() function in the script.
 
 
