@@ -1,4 +1,4 @@
-Python Keylogger with Advanced Features 🔑📸
+									Python Keylogger with Advanced Features 🔑📸
 <p align="center"> <img src="https://via.placeholder.com/700x250.png?text=Python+Keylogger+Project" alt="Keylogger Banner"> </p>
 📖 Overview
 This project is a Python-based keylogger designed for educational and ethical purposes only. It demonstrates how keylogging works while integrating additional features like screenshot capturing and email-based reporting. The project also allows users to compile the keylogger as a standalone executable.
