@@ -1,4 +1,4 @@
-'#' Python Keylogger Project
+`#` Python Keylogger Project
 
 A simple keylogger project built with Python that captures keystrokes, takes screenshots, and sends the logs and screenshots via email. This project is designed for educational purposes only and should not be used maliciously.
 
