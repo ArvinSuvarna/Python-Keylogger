@@ -4,7 +4,7 @@
 This project is a Python-based keylogger designed for **educational and ethical purposes only**. It demonstrates how keylogging works while integrating additional features like screenshot capturing and email-based reporting. The project also allows users to compile the keylogger as a standalone executable.
 
 > ⚠️ **Disclaimer**: This tool is strictly for educational purposes. The author is not responsible for any misuse of the tool. Always respect privacy and ensure ethical usage.
-
+<br>
 ## 🚀 **Features**
 - **Keystroke Logging**: Captures all keystrokes and logs them into a JSON file categorized by active applications.
 - **Screenshot Capturing**: Periodically captures screenshots and stores them locally.
@@ -12,7 +12,7 @@ This project is a Python-based keylogger designed for **educational and ethical 
 - **Standalone Executable**: Runs as a compiled `.exe` file for ease of use and background operation.
 - **No Remote Server**: Unlike other implementations, this keylogger does not rely on a remote server, ensuring local storage and minimal dependencies.
 
-
+<br>
 ## 📂 **File Structure**
 ```bash
 Python-Keylogger/
@@ -25,7 +25,7 @@ Python-Keylogger/
 └── README.md            # Project documentation
 ```
 
-
+<br>
 ## 📦 **Installation Guide**
 # **Option 1: Running the Python Script**
 1. **Clone the Repository**
@@ -71,7 +71,7 @@ pyinstaller --onefile --noconsole keylogger.py
 -Run the executable file by double-clicking it.
 -It will log keystrokes and capture screenshots as per your settings.
 
-
+<br>
 ## ✨ **Usage Instructions**
 1. **Keylogger Output**
    - Keystrokes are logged in `key_log.json`, categorized by application.
@@ -89,7 +89,7 @@ pyinstaller --onefile --noconsole keylogger.py
 3. The keylogger will run silently in the background.
 
 > **Note**: Auto-run from USB is restricted in modern systems due to security protocols. This method requires manual execution.
-
+<br>
 
 # ⚙️ Customization Options
 
