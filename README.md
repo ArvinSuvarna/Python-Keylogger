@@ -1,4 +1,4 @@
-# **Python Keylogger with Advanced Features** 🔑📸
+# 🔑📸 **Python Keylogger with Advanced Features** 🔑📸
 
 ## 📖 **Overview**
 
@@ -27,7 +27,7 @@ Python-Keylogger/
 ```
 
 ## 📦 **Installation Guide**
-Option 1: Running the Python Script
+# **Option 1: Running the Python Script**
 1. **Clone the Repository**
 Open a terminal and run:
 
