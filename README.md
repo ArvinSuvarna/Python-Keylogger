@@ -5,14 +5,15 @@ This project is a Python-based keylogger designed for **educational and ethical 
 
 > ⚠️ **Disclaimer**: This tool is strictly for educational purposes. The author is not responsible for any misuse of the tool. Always respect privacy and ensure ethical usage.
 <br>
+
 ## 🚀 **Features**
 - **Keystroke Logging**: Captures all keystrokes and logs them into a JSON file categorized by active applications.
 - **Screenshot Capturing**: Periodically captures screenshots and stores them locally.
 - **Email Reporting**: Sends both key logs and screenshots to a specified email at regular intervals.
 - **Standalone Executable**: Runs as a compiled `.exe` file for ease of use and background operation.
 - **No Remote Server**: Unlike other implementations, this keylogger does not rely on a remote server, ensuring local storage and minimal dependencies.
-
 <br>
+
 ## 📂 **File Structure**
 ```bash
 Python-Keylogger/
@@ -24,8 +25,8 @@ Python-Keylogger/
 ├── LICENSE              # License file
 └── README.md            # Project documentation
 ```
-
 <br>
+
 ## 📦 **Installation Guide**
 # **Option 1: Running the Python Script**
 1. **Clone the Repository**
