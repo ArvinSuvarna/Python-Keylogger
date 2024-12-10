@@ -16,11 +16,11 @@ This is a Python-based keylogger that logs keystrokes, takes periodic screenshot
 **Subject**: Keylogger Logs  
 **Body**:
 
-#...json
-#...{   
-#...  "Notepad": "This is a test log" 
-#...}
-
+```json
+{   
+ "Notepad": "This is a test log" 
+}
+```
 # Attachments: Screenshots from the screenshots/ folder.
 
  File Structure
