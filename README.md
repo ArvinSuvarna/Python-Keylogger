@@ -81,8 +81,8 @@ pyinstaller --onefile --noconsole keylogger.py
    - Logs and screenshots are attached to the email.
 3. **Stopping the Keylogger**
    - Press the `ESC` key in any application to stop the keylogger.
-```
-```
+<br>
+
 ## 📜 **Installation of the Keylogger via USB (Optional)**
 1. Copy the compiled `.exe` file onto a USB drive.
 2. On the target system, run the `.exe` to activate the keylogger.
@@ -98,10 +98,8 @@ pyinstaller --onefile --noconsole keylogger.py
    ```python
    EMAIL_INTERVAL = 300  # Time in seconds (default: 5 minutes)
    SCREENSHOT_INTERVAL = 60  # Time in seconds (default: 1 minute)
-
 2. Change Email Credentials
 Update the .env file with new credentials as needed.
-
 3. Disable Email Reporting
 Comment out or remove the send_email() function in the script.
 
